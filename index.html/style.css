@@ -1,0 +1,62 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	background: linear-gradient(blue, pink);
+  	margin-bottom: 60px;
+}
+
+.container {
+    width: 100%;
+    padding: 0px;
+}
+
+.navbar {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin:0;
+}
+
+.jumbotron-fluid {
+	text-align: center;
+	color: white;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+p {
+  text-align: center;
+  color: white;  
+}
+
+
+
+#btn-section{
+  margin-top:10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn {
+	margin:3px;
+}
+
+#images-section {
+	margin-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+	flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.submit {
+	background-color:("green");
+	color: white;
+	border: 1px solid #646464;
+}
+
